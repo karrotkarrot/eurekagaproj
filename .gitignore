@@ -1,0 +1,33 @@
+# Ignore everything at root by default (Option 1: Codebase only)
+/*
+!/codebase/
+!/.gitignore
+!/README.md
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# Runtime outputs & data
+output_pe/
+*.csv
+
+# OS / Editor / Vault metadata
+.DS_Store
+*.swp
+*.swo
+.obsidian/
+.trash/
+.idea/
+.vscode/
