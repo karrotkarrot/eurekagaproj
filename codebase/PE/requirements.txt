@@ -1,7 +1,0 @@
-# Requirements for PE Polymer GA Optimization
-rdkit>=2023.9.1
-selfies>=2.1.1
-pygad>=3.2.0
-pandas>=2.0.0
-torch>=2.0.0
-mordred>=1.2.0
